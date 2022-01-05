@@ -1,0 +1,31 @@
+.postDetails{
+    max-width: 500px;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .title{
+        margin: 0px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .body{
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 8px;
+        button{
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            background-color: #0099CC;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+}
